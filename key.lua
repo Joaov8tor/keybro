@@ -46,7 +46,7 @@ Button.MouseButton1Click:Connect(function()
     local userKey = TextBox.Text
     if userKey == correctKey then
         -- Chave correta, carrega o script
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/Joaov8tor/script544/refs/heads/main/scripts222"))()
+         loadstring(game:HttpGet("https://raw.githubusercontent.com/Joaov8tor/script544/refs/heads/main/scripts222.lua"))()
         ScreenGui:Destroy()  -- Fecha a UI
     else
         -- Chave incorreta, mostra mensagem de erro
